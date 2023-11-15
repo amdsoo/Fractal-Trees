@@ -52,14 +52,12 @@ class World():
 		# Write menu texts
 		input_rect = pygame.Rect(tile_size, 0, 4 * tile_size, tile_size)
 		pygame.draw.rect(screen, GREY, input_rect)
-		text_surface = my_font.render("Level  / " + str(d.level_max_display), False, BLACK)
+		text_surface = my_font.render("Level  / " + str(level_max_display), False, BLACK)
 		screen.blit(text_surface, (input_rect.x + 5, 0))
 
 class Tree:
 	def __init__(self):
 
-		# basic tree definition
-		'''self.level_max = 2'''
 
 		#initial color of the trunk
 		# brown 105 , 75 , 55

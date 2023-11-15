@@ -26,13 +26,13 @@ class Button:
             self.image = pygame.transform.scale(simu_on_img, (self.width, self.height))
             self.image_ns = pygame.transform.scale(simu_off_img, (self.width, self.height))
 
-        if self.button_name == "levelup":
+        '''if self.button_name == "levelup":
             self.image = pygame.transform.scale(levelup_img, (self.width, self.height))
             self.image_ns = pygame.transform.scale(levelup_img_ns, (self.width, self.height))
 
         if self.button_name == "leveldown":
             self.image = pygame.transform.scale(leveldown_img, (self.width, self.height))
-            self.image_ns = pygame.transform.scale(leveldown_img_ns, (self.width, self.height))
+            self.image_ns = pygame.transform.scale(leveldown_img_ns, (self.width, self.height))'''
 
     def draw(self, screen):
         # Call this method to draw the button on the screen if visible.

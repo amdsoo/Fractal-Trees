@@ -43,11 +43,11 @@ tree   = c.Tree()
 button_simulation = ui.Button("simulation", tile_size, tile_size)
 button_simulation.state = "pressed"
 
-# List of Buttons
+'''# List of Buttons
 button_level_up = ui.Button("levelup", 30 * tile_size, tile_size)
 button_level_up.state = "depressed"
 button_level_down = ui.Button("leveldown", 31* tile_size, tile_size)
-button_level_down.state = "depressed"
+button_level_down.state = "depressed"'''
 
 # game loop
 run = True
@@ -67,8 +67,8 @@ while run:
 
 
 	button_simulation.draw(screen)
-	button_level_up.draw(screen)
-	button_level_down.draw(screen)
+	'''button_level_up.draw(screen)
+	button_level_down.draw(screen)'''
 
 
 	if button_simulation.state == "pressed":

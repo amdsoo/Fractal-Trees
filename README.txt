@@ -1,6 +1,10 @@
-Go to the CLASSES, you can edit all the parameter of the trees
-RUN the MAIN to observe the results
 
+1/Go to Declaration and edit (for instance)
+    # Track current Level Displayed
+    level_max_display = 5
+
+
+2/Go to the classes(), you can edit all the parameter of the trees
 Here are the settings you want to edit / 
 		#initial color of the trunk
 		# brown 105 , 75 , 55
@@ -56,3 +60,4 @@ you can have up to 10 level (0 to 9),if you want to test 5 levels, put a branch_
   2/angle are in degrees 
   3/deviation is a number between 0 and 1, so it is a percentage of randomness. 
 
+3/RUN the main() to observe the results

@@ -1,8 +1,7 @@
 import pygame
 
-
 # Track current Level Displayed
-level_max_display = 3
+level_max_display = 5
 
 cargo_list = []
 machine_list = []
