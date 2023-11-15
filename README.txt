@@ -1,10 +1,10 @@
 
-1/Go to Declaration and edit (for instance)
+1/Go to declaration.py and edit (for instance)
     # Track current Level Displayed
     level_max_display = 5
 
 
-2/Go to the classes(), you can edit all the parameter of the trees
+2/Go to the classes.py, you can edit all the parameter of the trees
 Here are the settings you want to edit / 
 		#initial color of the trunk
 		# brown 105 , 75 , 55
@@ -31,13 +31,13 @@ Here are the settings you want to edit /
 
 		# self.data explanations
 		# level (0)
-		# branch_length (1),
-		# branch_radius start (2)
-		# branch_radius end(3)
-		# cone_angle (4)
+		# branch_length (1)in pixels
+		# branch_radius start (2) in pixels
+		# branch_radius end(3) in pixels
+		# cone_angle (4) in degrees
 		# cone_angle_reference (5) //Relative to parent branch, or absolute angle.
-		# axis_deviation (6) // a range of degree (+ ou -)
-		# branch_max (7)
+		# axis_deviation (6) // a % to diversify the angle of deviation
+		# branch_max (7) , number of branches at this level
 		# branch_length_deviation  (8)   // a % to diversify the length
 		# branch curvature (9)   // a % of curvature of the bezier curv at the midpoint of the Length
 
@@ -55,9 +55,6 @@ Here are the settings you want to edit /
 			[9,   2,   1,    1,   90,   "Relative",   0,   2,    0,  0]
 		]
 
-you can have up to 10 level (0 to 9),if you want to test 5 levels, put a branch_lenght at 0, this will stop the simulation, or remove the level from the table self.data. 
-  1/the length is in pixels  
-  2/angle are in degrees 
-  3/deviation is a number between 0 and 1, so it is a percentage of randomness. 
 
-3/RUN the main() to observe the results
+
+3/RUN the main.py to observe the results
